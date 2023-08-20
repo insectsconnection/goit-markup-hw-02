@@ -63,7 +63,7 @@ li {
     gap: 40px;
 }
 
-{
+h2{
     /* styleName: Body Medium; */
     font-family: Roboto;
     font-size: 16px;
@@ -392,7 +392,11 @@ section .two {
 }
 
 .rect-one .rect-two .rect-three {
-
+    width: 360px;
+    height: 300px;
+    border: 1px;
+    background: #E7E9FC;
+    border: 1px solid #E7E9FC;
     flex: 33.3%;
 }
 
@@ -422,13 +426,6 @@ section .two {
     left: 156px;
 }
 
-.rect-one {
-    width: 360px;
-    height: 300px;
-    border: 1px;
-    background: #E7E9FC;
-    border: 1px solid #E7E9FC
-}
 
 .img-two {
     width: Hug (360px);
@@ -437,27 +434,11 @@ section .two {
     left: 540px;
 }
 
-.rect-two {
-    width: 360px;
-    height: 300px;
-    border: 1px;
-    background: #E7E9FC;
-    border: 1px solid #E7E9FC
-}
-
 .img-three {
     width: Hug (360px);
     height: Hug (300px);
     top: 1128px;
     left: 924px;
-}
-
-.rect-three {
-    width: 360px;
-    height: 300px;
-    border: 1px;
-    background: #E7E9FC;
-    border: 1px solid #E7E9FC
 }
 
 section .three {
