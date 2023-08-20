@@ -771,6 +771,7 @@ footer .body {
     top: 2420px;
     left: 156px;
     color: #F4F4FD;
+    float: left;
 }
 footer .text-2 {
     width: 264px;
