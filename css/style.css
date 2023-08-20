@@ -332,7 +332,9 @@ section .two {
     height: 40px;
     top: 1016px;
     left: 559px;
-    /* //styleName: Header 2; */
+
+}
+ .header2{   /* //styleName: Header 2; */
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -340,8 +342,7 @@ section .two {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-}
-
+ }
 .img-one {
     width: Hug (360px);
     height: Hug (300px);
