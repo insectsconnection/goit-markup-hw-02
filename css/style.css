@@ -273,7 +273,7 @@ section .two {
 }
 
 /* styleName: Header 2; */
-.header2 {
+h2 {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -310,6 +310,7 @@ section .three {
     top: 1548px;
     background: #F4F4FD;
     align-items: center;
+    padding: 130;
 }
 
 .ourteam {
@@ -601,6 +602,7 @@ footer .text-web {
 footer .text-studio {
     /* background: #F4F4FD; */
     color: #F4F4FD;
+    
 }
 
 footer p {
@@ -617,6 +619,8 @@ footer p {
     left: 156px;
     color: #F4F4FD;
     float: left;
+    padding-top: 124px;
+    padding-left: 124px;
 }
 footer .text-2{
     width: 264px;
