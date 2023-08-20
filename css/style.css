@@ -426,7 +426,6 @@ section .two {
     left: 156px;
 }
 
-
 .img-two {
     width: Hug (360px);
     height: Hug (300px);
@@ -446,6 +445,7 @@ section .three {
     height: 732px;
     top: 1548px;
     background: #F4F4FD;
+    align-items: center;
 }
 
 .ourteam {
@@ -596,7 +596,7 @@ section .card-column {
     top: 1.5px;
 }
 
-grp-twit-grp {
+.grp-twit-grp {
     width: 16px;
     height: 13px;
     top: 1.5px;
@@ -693,7 +693,7 @@ grp-twit-grp {
     background: #2E2F42;
 }
 
-.fdeveloper {
+.uideveloper {
     width: 144px;
     height: 24px;
     /* styleName: Body; */
