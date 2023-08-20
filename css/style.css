@@ -225,7 +225,7 @@ section .one {
 .strategy-layout {
     width: 264px;
     height: 24px;
-    /* styleName: Header 3; */
+    /* //styleName: Header 3; */
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
