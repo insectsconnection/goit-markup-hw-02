@@ -4,7 +4,7 @@ header {
     border-bottom: 1px solid #E7E9FC
 }
 
-/* //WEBSTUDIO */
+/* WEBSTUDIO */
 .logo-layout {
     width: Hug (115px);
     height: Fixed (24px);
@@ -56,7 +56,7 @@ nav ul {
 }
 
 li {
-    /* //styleName: Body Medium; */
+    /* styleName: Body Medium; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -104,6 +104,7 @@ nav a {
     -ms-transform: translate(-20%, -30%);
 
 }
+
 .order-button {
     width: Hug (169px);
     height: Hug (56px);
@@ -117,6 +118,7 @@ nav a {
     position: fixed;
     align-items: center;
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -131,6 +133,7 @@ nav a {
     top: 72px;
     background: #2E2F42;
 }
+
 .ef-color {
     width: 496px;
     height: 120px;
@@ -139,8 +142,9 @@ nav a {
     color: #FFFFFF;
 
 }
+
+/* styleName: Header 1; */
 .header1{
-    /* styleName: Header 1; */
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -148,16 +152,13 @@ nav a {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .text {
     width: 496px;
     height: 120px;
     top: 260px;
     left: 472px;
 }
-
-
-
-
 
 .columns {
     display: flex;
@@ -169,15 +170,15 @@ nav a {
     padding: 20px;
 }
 
-.feature-one .feature-two .feaure-three .feature-four {
-    flex: 25%;
-}
-
 section .one {
     width: 1128px;
     height: 104px;
     top: 792px;
     left: 156px;
+}
+
+.feature-one .feature-two .feaure-three .feature-four {
+    flex: 25%;
 }
 
 .feature-one {
@@ -188,24 +189,6 @@ section .one {
     gap: 8px;
 }
 
-.strategy-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.ourgoal-layout p {
-    width: 264px;
-    height: 72px;
-}
-
 .feature-two {
     width: Fixed (264px);
     height: Hug (104px);
@@ -214,31 +197,6 @@ section .one {
     gap: 8px;
 }
 
-.punctuality-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.bring-layout {
-    width: 264px;
-    height: 72px;
-    /* //styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
-}
 
 .feature-three {
     width: Fixed (264px);
@@ -246,32 +204,6 @@ section .one {
     top: 792px;
     left: 732px;
     gap: 8px;
-}
-
-.diligence-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.research-layout {
-    width: 264px;
-    height: 72px;
-    /* //styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
 }
 
 .feature-four {
@@ -282,9 +214,7 @@ section .one {
     gap: 8px;
 }
 
-.technology-layout {
-    width: 264px;
-    height: 24px;
+.header3{
     /* //styleName: Header 3; */
     font-family: Roboto;
     font-size: 20px;
@@ -294,18 +224,24 @@ section .one {
     text-align: left;
     color: #2E2F42;
 }
+.body3{
+        /* //styleName: Body; */
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+}
+.strategy-layout .punctuality-layout .diligence-layout .technology-layout{
+    width: 264px;
+    height: 24px;
+}
 
-.design-layout {
+.ourgoal-layout .bring-layout .research-layout .design-layout{
     width: 264px;
     height: 72px;
-    /* //styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
 }
 
 section .two {
@@ -334,7 +270,8 @@ section .two {
     left: 559px;
 
 }
- .header2{   /* //styleName: Header 2; */
+/* styleName: Header 2; */
+ .header2{   
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
