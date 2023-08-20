@@ -489,7 +489,9 @@ section .card-column {
     align-items: center;
 }
 
-.card-one {
+
+
+.card-one .car-two .card-three .card-four{
     width: Hug (264px);
     height: Hug (380px);
     top: 1780px;
@@ -501,6 +503,7 @@ section .card-column {
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
+    flex: 25%;
 }
 
 .img-card1 {
@@ -633,7 +636,7 @@ grp-twit-grp {
     background: #4D5AE5;
 }
 
-.card-two {
+.card-three {
     width: Hug (264px);
     height: Hug (380px);
     top: 1780px;
@@ -647,18 +650,56 @@ grp-twit-grp {
     box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 
-.img-card2 {
+.img-card3 {
     width: 264px;
     height: 260px;
 }
 
-.card-content2 {
+.card-content3 {
     width: Fixed (232px);
     height: Hug (56px);
     gap: 8px;
 }
 
-.tford {
+.cgarcia {
+    width: 88px;
+    height: 24px;
+    /* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #2E2F42;
+}
+
+.card-four {
+    width: Hug (264px);
+    height: Hug (380px);
+    top: 1780px;
+    left: 444px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+
+.img-card4 {
+    width: 264px;
+    height: 260px;
+}
+
+.card-content4 {
+    width: Fixed (232px);
+    height: Hug (56px);
+    gap: 8px;
+}
+
+.dwilliams {
     width: 88px;
     height: 24px;
     /* styleName: Header 3; */
