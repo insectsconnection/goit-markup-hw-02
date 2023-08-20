@@ -318,12 +318,12 @@ section .two {
 
 .column-image {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0;
 }
 
 .rect-one .rect-two .rect-three {
-    width: auto;
+   
     flex: 33.3%;
 }
 
