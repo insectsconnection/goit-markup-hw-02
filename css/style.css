@@ -226,7 +226,6 @@ h3 {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-    flex: 25%;
 }
 
 p {
@@ -240,7 +239,6 @@ p {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-    flex: 25%;
 }
 
 section .two {
@@ -620,7 +618,7 @@ footer p {
     color: #F4F4FD;
     float: left;
 }
-footer .text-2 .columns{
+footer .text-2{
     width: 264px;
     height: 112px;
     top: 2380px;
