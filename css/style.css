@@ -739,12 +739,7 @@ footer {
     background: #2E2F42;
 }
 
-footer .text-2 {
-    width: 264px;
-    height: 112px;
-    top: 2380px;
-    left: 156px;
-}
+
 
 footer .logo {
     width: Hug (115px);
@@ -776,4 +771,10 @@ footer .body {
     top: 2420px;
     left: 156px;
     color: #F4F4FD;
+}
+footer .text-2 {
+    width: 264px;
+    height: 112px;
+    top: 2380px;
+    left: 156px;
 }
