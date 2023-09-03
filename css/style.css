@@ -1,5 +1,4 @@
-h1
-{
+h1 {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -8,7 +7,8 @@ h1
     text-align: center;
 
 }
-.logo-web{
+
+.logo-web {
     color: #4D5AE5;
     text-decoration: none;
     font-family: Raleway;
@@ -18,7 +18,8 @@ h1
     letter-spacing: 0.03em;
     text-align: left;
 }
-.logo-studio{
+
+.logo-studio {
     color: #2E2F42;
     text-decoration: none;
     font-family: Raleway;
@@ -28,7 +29,8 @@ h1
     letter-spacing: 0.03em;
     text-align: left;
 }
-.nav-menu{
+
+nav {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -37,14 +39,17 @@ h1
     text-align: left;
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a:hover{
+
+a:hover {
     color: blue;
 }
+
 .info-link,
-.tel-link{
+.tel-link {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -52,33 +57,81 @@ a:hover{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.main-hero{
+
+.hero {
     background-color: #2E2F42;
     color: #FFFFFF;
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+
 }
-.order-button{
+
+.order-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     height: 56px;
     width: 169px;
 }
-h3{
+
+h3 {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    width: 264px;
+    height: 24px;
 }
-h2{
+
+h2 {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.02em;
-    /* text-align: ; */
+    text-align: center;
 }
-p{
+
+p {
     color: #434455;
+    width: 264px;
+    height: 72px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 10px;
+}
+
+.items {
+    width: 1128px;
+    height: 104px;
+    top: 792px;
+    left: 156px;
+    border: #434455;
+    display: flex;
+}
+.section-item-gallery {
+    width: 1128px;
+    height: 412px;
+    top: 1016px;
+    left: 156px;
+
+}
+.section-item-team{
+    width: 1440px;
+    height: 732px;
+    top: 1548px;    
+
+}
+footer {
+    width: 1440px;
+    height: 312px;
+    top: 2280px;
 }
